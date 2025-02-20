@@ -1,0 +1,61 @@
+.h3m {
+    display: flex;
+    justify-content: center;
+}
+
+.pm {
+    display: flex;
+    justify-content: center;
+}
+
+.photo {
+    position: fixed;
+    top: 0; 
+    right: 0;
+    padding: 20px;
+    margin-right: 250px;
+}
+
+.btntop {
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+  }
+
+button:hover {
+    background-color: #45a049;
+  }
+
+.btnsb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#changing {
+    border: 2px solid black;
+    padding: 5px;
+    width: 1460px;
+    height: 480px;
+}
+
+.sidebar {
+    width: 300px;
+}
+
+#info {
+    position: fixed;
+    border: solid 2px;
+    left: 350px;
+    top: 200px;
+    width: 1115px;
+    height: 470px;
+    padding: 5px;
+    overflow: scroll;
+}
