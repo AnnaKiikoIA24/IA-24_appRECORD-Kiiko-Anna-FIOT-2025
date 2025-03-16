@@ -46,7 +46,9 @@ button:hover {
 }
 
 .sidebar {
-    width: 300px;
+    width: 330px;
+    height: 470px;
+    overflow: scroll;
 }
 
 #info {

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+    <div id="changing">
+        <div class="sidebar">
+            <button class="btnsb" onclick="activateSection('info', 'aboutlab3')">Тема. Мета. Місце розташування лабораторної роботи</button>
+            <button class="btnsb" onclick="activateSection('info', 'task1-3')">Завдання №1</button>
+            <button class="btnsb">Завдання №2</button>
+            <button class="btnsb" onclick="activateSection('info', 'task21-3')">Фіксована таблична верстка</button>
+            <button class="btnsb" onclick="activateSection('info', 'task22-3')">Гумова таблична верстка</button>
+            <button class="btnsb" onclick="activateSection('info', 'task23-3')">Фіксована блокова верстка</button>
+            <button class="btnsb" onclick="activateSection('info', 'task24-3')">Гумова блокова верстка</button>
+            <button class="btnsb">Завдання №3</button>
+            <button class="btnsb" onclick="activateSection('info', 'task31-3')">Зовнішній вигляд сторінки</button>
+            <button class="btnsb" onclick="activateSection('info', 'task32-3')">HTML</button>
+            <button class="btnsb" onclick="activateSection('info', 'task33-3')">CSS</button>
+            <button class="btnsb" onclick="activateSection('info', 'lab3Conc')">Висновки</button>
+        </div>
+
+        <div id="info">
+            <div id="aboutlab3">
+                <h4>Тема:</h4> Верстка HTML-ДОКУМЕНТУ. Блокова верстка. Верстка засобами CSS та FLEXBOX.
+                <h4>Мета:</h4> Придбати практичні навички роботи верстки сторінок засобами CSS, верстки на основі плаваючих елементів,
+                з’ясувати переваги та недоліки типів макетів веб-сторінок. Придбати практичні навички роботи верстки сторінок засобами
+                CSS та FLEXBOX.
+                <ul><h4>Посилання:</h4>
+                    <li><a href="https://github.com/AnnaKiikoIA24/IA-24_appWEB-Kiiko-Anna-FIOT-2025.git">Репозиторій застосунку</a></li>
+                    <li><a href="https://annakiikoia24.github.io/IA-24_appWEB-Kiiko-Anna-FIOT-2025/">Жива сторінка застосунку</a></li>
+                    <li><a href="https://github.com/AnnaKiikoIA24/IA-24_appRECORD-Kiiko-Anna-FIOT-2025.git">Репозиторій звітного документа</a></li>
+                    <li><a href="https://annakiikoia24.github.io/IA-24_appRECORD-Kiiko-Anna-FIOT-2025/">Жива сторінка звітного документа</a></li>
+                    <li><a href="https://github.com/AnnaKiikoIA24/IA-24_INDEPENDENT-Kiiko-Anna-FIOT-2025.git">Репозиторій самостійних робіт</a></li>
+                </ul>
+            </div>
+           
+            <div id="task1-3">
+                <h4>Скріншот головної сторінки:</h4>
+                <img src="img/task1-3.png"/>
+                <h4>Програмний код головної сторінки:</h4>
+                <img src="img/Screenshot 1 lab3.png"/>
+                <img src="img/Screenshot 2 lab3.png"/>
+                <img src="img/Screenshot 3 lab3.png"/>
+                <img src="img/Screenshot 4 lab3.png"/>
+                <img src="img/Screenshot 5 lab3.png"/>
+                <img src="img/Screenshot 6 lab3.png"/>
+            </div>
+
+            <div id="task21-3">
+                <table style="width: 300px; height: 500px; border-collapse: collapse;">
+                    <tr>
+                        <td colspan="2" style="background: blue; height: 50px; text-align: center; color: white;">1</td>
+                    </tr>
+                    <tr>
+                        <td style="background: yellow; width: 50px; text-align: center;">2</td>
+                        <td style="text-align: center;">4</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="background: blue; height: 50px; text-align: center; color: white;">3</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="task22-3">
+                <table style="width: 100%; height: 100vh; border-collapse: collapse;">
+                    <tr>
+                        <td colspan="2" style="background: blue; height: 10%; text-align: center; color: white;">1</td>
+                    </tr>
+                    <tr>
+                        <td style="background: yellow; width: 10%; text-align: center;">2</td>
+                        <td style="text-align: center;">4</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="background: blue; height: 10%; text-align: center; color: white;">3</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="task23-3">
+                <div style="width: 300px; height: 500px; display: flex; flex-direction: column; border: 1px solid black;">
+                    <div style="background: blue; height: 50px; text-align: center; color: white;">1</div>
+                    <div style="display: flex; flex: 1;">
+                        <div style="background: yellow; width: 50px; text-align: center;">2</div>
+                        <div style="flex: 1; text-align: center;">4</div>
+                    </div>
+                    <div style="background: blue; height: 50px; text-align: center; color: white;">3</div>
+                </div>
+            </div>
+
+            <div id="task24-3">
+                <div style="width: 100%; height: 100vh; display: flex; flex-direction: column; border: 1px solid black;">
+                    <div style="background: blue; height: 10%; text-align: center; color: white;">1</div>
+                    <div style="display: flex; flex: 1;">
+                        <div style="background: yellow; width: 10%; text-align: center;">2</div>
+                        <div style="flex: 1; text-align: center;">4</div>
+                    </div>
+                    <div style="background: blue; height: 10%; text-align: center; color: white;">3</div>
+                </div>
+            </div>
+
+            <div id="task31-3">
+                <img src="img/task311-3.png"/>
+                <img src="img/task312-3.png"/>
+            </div>
+
+            <div id="task32-3">
+                <img src="img/task331-3.png"/>
+                <img src="img/task332-3.png"/>
+                <img src="img/task333-3.png"/>
+            </div>
+
+            <div id="task33-3">
+                <img src="img/task334-3.png"/>
+                <img src="img/task335-3.png"/>
+                <img src="img/task336-3.png"/>
+                <img src="img/task337-3.png"/>
+                <img src="img/task338-3.png"/>
+            </div>
+
+            <div id="lab3Conc">
+                <h4>Висновок:</h4> придбала практичні навички роботи верстки сторінок засобами CSS, верстки на основі плаваючих елементів,
+                з’ясувала переваги та недоліки типів макетів веб-сторінок. Придбала практичні навички роботи верстки сторінок засобами
+                CSS та FLEXBOX.
+            </div> 
+        </div>
+    </div>
+</html>
